@@ -1,0 +1,354 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{overflow-x: hidden;}
+#contain {
+	background-image: url("assets/agriculture-cherry-tomatoes-cooking-262967.jpg");
+	background-size: cover;
+	padding-bottom: 200px;
+	width:100%;
+	background-attachment: fixed;
+}
+#nav{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#navbar {
+	background-color: #ffffff;
+	padding:32px 18px 5px 18px;
+	position: fixed;
+	width:80%;
+	
+}
+#up {
+	font: normal normal normal 30px/1.4em 'eb garamond',serif;
+}
+#left{
+	font: normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	letter-spacing: 0.15em;
+	font-weight: lighter;
+}
+#hidbtn{
+	display: none;
+	width:100%;
+	float: right;
+	align-self: right;
+}
+
+#down{
+	display:flex;
+	justify-content: space-between;
+}
+#navitems {display: flex; justify-content: space-between;}
+.navitem {
+padding:8px;
+font: normal normal normal 14px/1.4em raleway,sans-serif;
+}
+.navitem:visited {color: #107070;}
+
+#cent {
+	letter-spacing: 0em;
+	font: normal normal bold 66px/1.4em raleway,sans-serif;
+	color: #ffffff;
+	font-weight: 900;
+	width: 50%;
+}
+#det {
+	font: normal normal normal 20px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	color: #ffffff;
+	width:25%;
+}
+#mid {
+	display: flex;
+	flex-direction: column;
+	padding-top: 280px;
+	padding-left: 230px;
+
+}
+#shop_btn {
+	width:100px;
+	min-width:20px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 12px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#cont {
+	background-color: #F9F6F6;
+	width: 100%;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#p1, #p2, #p3, #p4, #p5{
+	display: flex;
+}
+
+.dankats img {
+	max-width: 341px;
+	max-height: 400px;
+	width: 90%;
+	height: 400px;
+	margin-left: 20px;
+	margin-top:10px;
+}
+.dan {
+	background-color: #ffffff;
+	width:90%;
+	font-size:3em;
+	margin-left:20px;
+	padding-left: 46px;
+	color: #107070;
+	padding-top: 30px;
+	padding-bottom:30px;
+	margin-bottom: 18px;
+}
+.dan p{
+	color: #000000;
+	font-size: 0.3em;
+	line-height: 1.5em;
+	margin-top:15px;
+	font-weight: lighter;
+}
+.dan u{color: #107070;
+}
+
+
+.kmp {
+	background-image: url('assets/arch-bridge-asian-food-billiard-table-1098599.jpg') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 90%;
+	height: 360px;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:  center;
+
+}
+#kmps {background-color: #ffffff;
+width: 80%;
+height: 30%;
+color: #107070;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-weight: 900;
+font-size: 1.5em;
+letter-spacing: 0.1em;}
+
+#kmps u{
+	font-size: 0.6em;
+	font-weight: lighter;
+}
+
+
+#topr{
+background-color: #107070;
+width: 90%;
+height: 100px;
+margin: 20px;
+color: #ffffff;
+font-size: 0.8em;
+text-align: center;
+line-height: 100px;
+letter-spacing: 0.1em;
+font-weight: lighter;
+}
+
+#botr{
+	background-color: #ffffff;
+	width: 90%;
+	height: 190px;
+	margin: 20px ;
+	color: #107070;
+	text-align: center;
+	padding-top: 40px;
+	font-weight: lighter;
+}
+
+
+
+
+
+.leftb img {
+	max-height: 362px;
+	max-width: 320.5px;
+	min-width:260px;
+	height: 100%;
+	width: 99%;
+	
+	}
+.rightb {background-color: #ffffff;
+	height: 362px;
+	width: 320.5px;
+	font-size: 0.9em;}
+.topb {
+	padding-left: 18%;
+	padding-top: 10%;
+}
+
+.midb {
+	color: rgba(16,112,112,1);
+	font: normal normal bold 25px/1.4em raleway,sans-serif;
+	padding-left: 18%;
+	padding-top: 10%;
+}
+.midb2{padding:10px;}
+.btmb, .btmb2{letter-spacing: 0px;}
+.btmb, .btmb2, .midb2 {padding-left: 18%;}
+.midb2, .btmb2{font-weight: lighter;}
+.mbox{display: flex;
+margin:10px;
+word-wrap: break-word;
+justify-content: center;
+}
+#p5{display: flex;}
+
+#leftc{display: flex;
+	flex-direction: column;
+justify-content: center;
+align-self: center;}
+
+#rightc{align-self: center;}
+
+
+/*#mainc {
+	background-color: #F9F6F6;
+	width: 100%;
+	height: 400px;
+}
+#left_b {
+	background-image: url('assets/apricot-background-berry-1028599.jpg');
+	width: 300px;
+	height: 360px;
+	padding-left: 200px;
+}
+
+*/
+
+#follow {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font: normal normal bold 26px/1.4em raleway,sans-serif;
+    color: #107070;
+    font-weight: bold;
+    padding-top: 60px;
+}
+#fella {
+	font-size: 0.6em;
+	letter-spacing: 0.1em;
+	font-weight: lighter;
+}
+#fella2 {
+	font-size: 2em;
+
+}
+#collect{
+	display: grid;
+	padding-left:0px;
+	margin-top: 20px;
+}
+.pbox{margin-top:80px;}
+.col-1 img {
+	max-height: 278px;
+	max-width: 278px;
+	width: 278px;
+	height: 278px;
+	min-width: 20%;
+}
+
+
+#newsl {
+	display:flex;
+	flex-direction: column;
+	background-color: #F9F6F6;
+	align-items:  center;
+	color: #107070;
+}
+#ntext {
+	font: normal normal bold 28px/1.4em raleway,sans-serif;
+    color: #107070;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 80px;
+}
+#btmbar {
+	background-color: #107070;
+	color: #ffffff;
+	width: 100%;
+	height: 50px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 0.9em;
+
+}
+.inp2{
+	
+	border-color: #107070;
+	height: 45px;
+	width: 380px;
+}
+.inp {
+	border-color: #107070;
+	height: 28px;
+	width:56%;
+	padding:2px 8px;
+}
+.subm, .subm2 {
+  background-color: #107070;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px 4px;
+  cursor: pointer;
+}
+.subm2 {
+	padding: 8px 42px;
+}
+#wrap{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+
+#row1 img:hover{background-color: rgb(0,0,0,0.5);}
+
+
+.col-1 {width:20%;}
+
+[class*="col-"] {
+  float: left;
+
+}
+
+@media only screen and (max-width: 1000px) {
+	#wrap{flex-direction: column}
+	#navitems{display: none}
+	.mbox {flex-direction: column;}
+	#hidbtn{display:flex;justify-content: flex-end;}
+	.col-1{width:50%;}
+
+}
+
